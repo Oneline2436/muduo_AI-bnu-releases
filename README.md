@@ -4,11 +4,11 @@
 
 北师大同学自制的校园桌面助手 · Windows 版
 
-## [⬇ 点这里下载木铎 BNU 1.4.0](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/download/v1.4.0/MuduoBNU-1.4.0-Setup.exe)
+## [⬇ 点这里下载木铎 BNU（最新版）](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest/download/MuduoBNU-Setup.exe)
 
-<a href="https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/download/v1.4.0/MuduoBNU-1.4.0-Setup.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85-Windows%2010%2F11%20%C2%B7%20641%20MB-0054a6?style=for-the-badge&logo=windows&logoColor=white" width="420" alt="下载安装包 Windows 10/11 · 641 MB"></a>
+<a href="https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest/download/MuduoBNU-Setup.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85-Windows%2010%2F11%20%C2%B7%20641%20MB-0054a6?style=for-the-badge&logo=windows&logoColor=white" width="420" alt="下载安装包 Windows 10/11 · 641 MB"></a>
 
-文件名 `MuduoBNU-1.4.0-Setup.exe`，下载后双击安装。
+文件名 `MuduoBNU-Setup.exe`，始终是最新版，下载后双击安装。
 
 <!-- MIRROR: 师大云盘镜像链接确认后取消这一行的注释
 **[校内更快：师大云盘镜像](填入分享链接)** · 提取码 填入
@@ -25,14 +25,14 @@ GitHub 下载慢时，可以换个时间或换个网络再试。
 ## 三步装好
 
 ### 1. 下载
-点上面蓝色按钮，浏览器会下载 `MuduoBNU-1.4.0-Setup.exe`。
+点上面蓝色按钮，浏览器会下载 `MuduoBNU-Setup.exe`。
 如果浏览器提示「此文件通常不会被下载」，点 **…** → **保留**。
 
 ### 2. 运行安装程序
 双击下载好的文件。因为木铎还没有做 Windows 代码签名，第一次可能看到蓝色的 **「Windows 已保护你的电脑」**：
 
 1. 点 **更多信息**；
-2. 确认发布者一栏写的是「未知发布者」、文件名是 `MuduoBNU-1.4.0-Setup.exe`；
+2. 确认发布者一栏写的是「未知发布者」、文件名是 `MuduoBNU-Setup.exe`；
 3. 点 **仍要运行**。
 
 然后会看到下面的安装窗口，安装位置不用改，直接点 **安装并开始**，等进度条走完（约 1～3 分钟，全程不需要联网）。
@@ -56,9 +56,9 @@ GitHub 下载慢时，可以换个时间或换个网络再试。
 **怎么确认下载的文件没被改过？**
 在下载目录打开 PowerShell，运行：
 ```powershell
-Get-FileHash .\MuduoBNU-1.4.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\MuduoBNU-Setup.exe -Algorithm SHA256
 ```
-结果应为 `F25DADA063E460241CF2D6398C7753B6BE04F1D24FFEFE7972FCBA5553A73586`。
+当前版本 1.4.1 的结果应为 `AB37DD7F9DC32790F1DEE5FEA8137191222C883B79AEB6CD77CB8D605B5ED92A`。以后每个版本的校验值，在[发布页](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest)每个文件旁的 sha256 里都能看到。
 
 **下面那些 `.zip`、`muduo-update.json`、`.sig` 是什么？** 给自动更新用的，不需要手动下载。
 
