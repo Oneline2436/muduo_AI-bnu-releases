@@ -70,6 +70,6 @@ Get-FileHash .\MuduoBNU-Setup.exe -Algorithm SHA256
 
 - 木铎是北师大同学自制的**非官方**客户端，不是学校信息网络中心的产品，与学校没有隶属关系。
 - 木铎只做**只读**访问，并且自带限流。请不要用它或照着它的流程去高频、批量访问学校系统；遇到验证码、访问受限，请按学校页面的提示处理。
-- 本仓库只放安装包，不含源码。问题和建议请联系作者。
+- 本仓库只放安装包，不含源码。问题和建议请联系作者：**onelinec170@gmail.com**。
 
 [查看全部版本与更新说明 →](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases)
