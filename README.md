@@ -4,9 +4,13 @@
 
 北师大同学自制的校园桌面助手 · Windows 版
 
+> **暂停维护公告（2026-11-18）**
+>
+> 由于 Claude 被封禁，鸦鸦子 AI 将暂时停止维护。现有代码和安装包继续保留下载，恢复维护时间待定。学校接口、模型和网络策略变化可能影响现有功能。
+
 ## [⬇ 点这里下载木铎 BNU（最新版）](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest/download/MuduoBNU-Setup.exe)
 
-<a href="https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest/download/MuduoBNU-Setup.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85-Windows%2010%2F11%20%C2%B7%20641%20MB-0054a6?style=for-the-badge&logo=windows&logoColor=white" width="420" alt="下载安装包 Windows 10/11 · 641 MB"></a>
+<a href="https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest/download/MuduoBNU-Setup.exe"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85-Windows%2010%2F11-0054a6?style=for-the-badge&logo=windows&logoColor=white" width="420" alt="下载安装包 Windows 10/11"></a>
 
 文件名 `MuduoBNU-Setup.exe`，始终是最新版，下载后双击安装。
 
@@ -58,7 +62,7 @@ GitHub 下载慢时，可以换个时间或换个网络再试。
 ```powershell
 Get-FileHash .\MuduoBNU-Setup.exe -Algorithm SHA256
 ```
-当前版本 1.4.1 的结果应为 `AB37DD7F9DC32790F1DEE5FEA8137191222C883B79AEB6CD77CB8D605B5ED92A`。以后每个版本的校验值，在[发布页](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest)每个文件旁的 sha256 里都能看到。
+将结果与[发布页](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases/latest)中 `SHA256SUMS.txt` 的 `MuduoBNU-Setup.exe` 校验值核对。
 
 **下面那些 `.zip`、`muduo-update.json`、`.sig` 是什么？** 给自动更新用的，不需要手动下载。
 
@@ -70,7 +74,6 @@ Get-FileHash .\MuduoBNU-Setup.exe -Algorithm SHA256
 
 - 木铎是北师大同学自制的**非官方**客户端，不是学校信息网络中心的产品，与学校没有隶属关系。
 - 木铎只做**只读**访问，并且自带限流。请不要用它或照着它的流程去高频、批量访问学校系统；遇到验证码、访问受限，请按学校页面的提示处理。
-- 本仓库只放安装包，不含源码。问题和建议请联系作者：**onelinec170@gmail.com**。
-- 本项目更新维护直到**Claude账户被封禁**。
+- 本仓库只放安装包，不含源码。问题和建议请联系作者。
 
 [查看全部版本与更新说明 →](https://github.com/Oneline2436/muduo_AI-bnu-releases/releases)
